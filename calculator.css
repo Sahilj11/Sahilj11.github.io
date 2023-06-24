@@ -46,7 +46,7 @@ body {
     border-radius: 5px;
 
 }
-.cal-box button:hover{
+.cal-box button:hover .cal-box button:active{
     background: black;
     color: white;
 }
