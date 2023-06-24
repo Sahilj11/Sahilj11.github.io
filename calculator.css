@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background: black;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 70px auto 70px;
+}
+
+.cal-box {
+    display: grid;
+    grid-column: 2 /3;
+    width: 260px;
+    height: 265px;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows:  3fr repeat(4,1.5fr);
+    margin-inline:auto;
+    margin-top: 10rem;
+}
+.cal-box button{
+    
+    background: white;
+    color: black;
+    font-family: 'Lobster', cursive;
+    font-weight: 500;
+    width: 4rem;
+    height: 2.3rem;
+    border: none;
+    border-radius: 5px;
+}
+.box-10{
+    grid-row: -3 / -1;
+    min-height: 4.6rem;
+    border-radius: 6px;
+}
+.display {
+    grid-column: 1 / 5;
+    background: rgba(192, 191, 191, 0.377);
+    margin-bottom: 0.2rem;
+    border-radius: 5px;
+
+}
+.cal-box button:hover{
+    background: black;
+    color: white;
+}
+p{
+    display: grid;
+    place-content: end end;
+    padding-right: 0.5rem;
+    color: white;
+}
