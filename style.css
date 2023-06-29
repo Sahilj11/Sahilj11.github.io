@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+body {
+    background-color: #003554;
+    font-family: 'Josefin Sans', sans-serif;
+}
+table {
+    margin-top: 100px;
+    column-gap: 10px;
+    margin-inline: auto;
+    width: clamp(390px, 500px ,auto);
+    
+}
+h1 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 7rem;
+
+}
+.headings{
+    font-size: 20px;
+    color: white;
+}
+th,td {
+    border: 1px solid white;
+    color: white;
+    padding: 1rem;
+    font-size: clamp(1rem, 2.5vw, 1.2rem);
+}
+
+form {
+    margin-top: 8rem;
+    margin-left: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.user-input, select , #submit{
+    border: 1px solid white;
+    border-radius: 20px;
+    width: clamp(100px, 200px ,300px);
+    padding: .3rem;
+    background-color: #003554;
+    color: white;
+}
+::placeholder {
+    color: white;
+}
+.promptMessage {
+    color: white;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+#Alert {
+    text-decoration: underline red;
+}
+#expenseTotal {
+    text-decoration: underline white;
+}
+
+button {
+    height: 30px;
+    width: 100px;
+    display: flex;
+    margin-inline: auto;
+    margin-top: .5rem;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    background-color: red;
+    color:white;
+}
+
